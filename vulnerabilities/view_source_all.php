@@ -60,6 +60,9 @@ switch ($id) {
 	case "weak_id" :
 		$vuln = 'Weak Session IDs';
 		break;
+	case "timing" :
+		$vuln = 'Timing Attack';
+		break;
 	default:
 		$vuln = "Unknown Vulnerability";
 }

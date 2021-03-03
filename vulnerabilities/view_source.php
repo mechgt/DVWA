@@ -46,6 +46,9 @@ switch ($id) {
 	case "javascript" :
 		$vuln = 'JavaScript';
 		break;
+	case "timing" :
+		$vuln = 'Timing Attack';
+		break;
 	default:
 		$vuln = "Unknown Vulnerability";
 }
